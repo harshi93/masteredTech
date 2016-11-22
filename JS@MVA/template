@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSLessons@MVA</title>
+</head>
+<body onload="alert('HelloWorld')">
+<h1>JavaScript Example</h1>
+</body>
+</html>

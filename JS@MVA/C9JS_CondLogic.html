@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Conditional logic in JS</title>
+<script type="text/javascript">
+	var someValue = 24;
+	var otherValue =23;
+
+	if(someValue < 30){
+		alert("first case");
+	}
+	else if (someValue > 30){
+		alert("second case");
+	}
+	else if (someValue === 24){
+		alert("third case");
+	}
+	else{
+		alert("fourth case")
+	}
+
+	if(someValue > 20 && otherValue > 20){
+		alert("fifth case");
+	}
+
+	if(someValue === 24 || otherValue ===24){
+		alert("sixth case");
+	}
+
+	someValue = false;
+	if(someValue !== 24){
+		alert("seventh case");
+	}
+
+	var myResult = "";
+	myResult = (someValue === 24) ? "equal":"not equal";
+
+	var userName = "Rimmer";
+	switch (userName)
+	{
+		case "Lister":
+		document.write("Care for a good curry");
+		case "Rimmer":
+		document.write("Welcome back");
+		default:
+		document.write("Are you a moron");
+	}
+    
+    var rightNow = new Date();
+    var currentHour = rightNow.getHours();
+    switch(true){
+    	case (currentHour > 8 && currentHour < 12);
+    	document.write("Morning, Sunshine!");
+    	break;
+    	case (currentHour === 12);
+    	document.write("Lunch time");
+    	case (currentHour > 12 && currentHour < 18);
+    	document.write("its showtime")
+    	default:
+    	document.write("Careful Sparky")
+    }
+</script>
+</head>
+<body>
+<h1>Conditional logic in JS</h1>
+</body>
+</html>
+
+NaN -  Not a number(if you get this as response it means you are trying to divide number and string)
+== comparator (forces the output to be same by cohersing values on two ends for e.g 3 = "3" will be true)
+=== equality (actually compares the value on two end for e.g 3 = "3" will be false)
+similar goes for != and !== they also act as comparator and equality operator do
+truthy and falsey means truth or false

@@ -1,0 +1,1 @@
+alert("Hello, I am trying to adopt best practice to work with js, thank you");

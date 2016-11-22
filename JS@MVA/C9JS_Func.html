@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSLessons@MVA</title>
+<script type="text/javascript">
+	function myNewFunction() {
+		alert("howdy!");
+	}
+
+	myNewFunction();
+
+function myNewFunction(value){
+	alert("howdy"+ value);
+}	
+
+myNewFunction("pardner");
+
+function add(firstNumber, secondNumber){
+    return firstNumber + secondNumber;	
+}
+
+var myResult = add(1,2);
+alert(myResult);
+
+function add(){
+	var tempValue = 0;
+	for (var i = 0; i < arguments.length; i++) {
+	 tempValue += arguments[i];
+	}
+	return tempValue;
+}
+var myValue = add(1,2,3,4,5);
+alert(myValue);
+
+//function literals
+var addMe = function(){
+	return arguments[0] + arguments[1];
+}
+
+var myNewValue = addMe(1,2);
+alert(myNewValue);
+
+//anonymous function used in Jquery
+
+alert((function (){
+	return arguments[0] + arguments[1]; 
+})(1,2));
+
+</script>	
+<body>
+<h1>Javascript Functions</h1>
+<input type="submit" value="click me" onclick="myNewFunction();" />
+</body>
+</html>

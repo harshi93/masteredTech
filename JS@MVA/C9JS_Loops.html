@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSLessons@MVA</title>
+<script type="text/javascript">
+	var playlist = [];
+	playlist[0] = "Abc";
+	playlist[1] = "Def";
+	playlist[2] = "Ghi";
+	playlist[3] = "Jkl";
+
+	//while
+	var i = 0;
+	while(i<playlist.length){
+		document.write("Now Playing:" + playlist[i] + "<br />");
+		i++;
+	}
+
+	//do-while
+	var someResult =  false;
+	do {
+		document.write("Will print at least once");
+	} while(someResult);
+
+	//for
+	for (var i = 0; i<playlist.length; i++) {
+		document.write("Now Playing:" + playlist[i] + "<br />");
+	}
+
+	//for...in
+
+	for(i in playlist){
+		document.write("Now Playing:" + playlist[i] + "<br />");
+	}
+
+</script>
+<body>
+<h1>Looping Statements</h1>	
+</body>
+</html>

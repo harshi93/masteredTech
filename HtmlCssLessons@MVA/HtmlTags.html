@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+<header>
+	<hgroup></hgroup>
+	<nav>
+		<ul>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+	<article>
+		<h1></h1>
+		<h2></h2>
+		<p></p>
+		<figure>
+			<img src="" alt="">
+			<figcaption>he hehhe</figcaption>
+		</figure>
+		<br/>
+		<ol>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+		<dl> = definition list
+		<dt></dt> = definition terms
+		<dd></dd> = definition description
+		</dl>
+		<pre></pre> =  used to make sure codes/preformatted text retain their structure while rendered by web browsers to be represented on web
+		<table>
+			<thead> = row for representing heading
+				<th></th>
+			</thead>
+			<tbody>
+				<tr>
+					<th></th>
+					<td></td>
+				</tr>
+				<tr colspan="3"></tr> // Remember 3 stands for number of columns you want stretch the data
+				colgroup: is used to give id to columns for the purpose grouping so that
+				so you can have similar setting for multiple group
+			</tbody>
+			<tfoot>
+				<tr>
+					<th></th>
+					<td></td>
+				</tr>
+			</tfoot>
+		</table>
+		<form method="POST" action="form.aspx"> // action is the place where we put our email id
+			<label>Customer name:<input type="text" id="customerName" name="customerName" maxlength="10">
+			<fieldset> = groups the common elements of form together
+				<legend>Pizza Size</legend> = gives elements inside fieldset a name
+                 <label> <input type="radio" name="size" value="small"></label>
+                 <label> <input type="radio" name="size" value="medium"></label>
+                 <label> <input type="radio" name="size" value="large"></label>
+			</fieldset>
+			<fieldset>
+				<legend>Pizza Toppings</legend>
+				<label> <input type="checkbox" name="toppings" value="bacon"></label>
+				<label> <input type="checkbox" name="toppings" value="cheese"></label>
+				<label> <input type="checkbox" name="toppings" value="Ham"></label>
+			</fieldset>
+			<p>Crust:
+			<select name="crust"> = // drop down menu
+				<option value="c1">Normal</option>
+				<option value="c2" checked>Wheat</option> // checked/selected is use to preselect available options it can be changed before submitting forms
+				<option value="c3"></option>
+			</select></p>
+			<p><label>Delivery Instructions</label>
+			<textarea name="comments" cols="50" rows="5" maxlength="1000"></textarea>
+			</p>
+			<p><input type="submit" value="Place Order">
+			<input type="reset" value="Reset Value"></p>
+			<input type="email" name=Input required> the required keyword is used to make fields mandatory
+		  	<input type="range" name="range list" required value="42">
+		  	<input type="tel" name="">
+		  	<input type="url" name="">	
+		  	<input type="text" list="somelist">
+		  	<input type="text" autofocus> // makes cursor available at defined location when page loads
+		  	<input type="text" pattern="*/-+.">
+		  	<input type="text" placeholder="Xyz"> makes content already in the box clear once the cursor is placed to accomodate new content it's similar to 
+		  	read only attributes of text boxes
+		  	<input type="text" required>
+		  	<input type="number" step=""> based on example it is used for divisibility test not sure where it is applicable
+		  	<datalist id = somelist>
+		  		<option label="First" value="First"></option>
+		  	</datalist>
+			<button>Submit</button>
+		</form>
+	</article>
+	<hr> = horizontal line
+	<article>
+		&lt;- to represent less than symbol
+		&gt;- to represent greater than symbol
+		<aside></aside>
+	</article>
+</section>
+<footer>
+	<small></small>
+</footer>
+</body>
+</html>
+
+button has more CSS styling capabilities
+button type= button
+button type= submit
+button type = reset
+
+HTTP POST - encodes data in the message box
+
+HTTP GET - encodes form and other data in URL
+
+action - attribute that defines destination for the form data is the 
+
+important link: https://www.w3.org/TR/2013/NOTE-html5-author-20130528/
+
+/*Embedding Video in HTML5*/
+<video src="" controls width="" height="" autoplay poster=""></video> 
+
+/*the control keyword is used
+to provide controls such start pause increase or decrease volume*/
+/*the poster keyword is used to include poster image; an image which will be shown
+to user while the video is being downloaded on to user's computer*/
+/*autoplay keyword is to autoplay the video as soon as the browser loads the relative
+page*/
+/*loop attribute is to keep video playing continuously*/
+/*muted attribute is used to load the page with video sound muted*/
+/*preload attribute starts downloading video immediately so that its ready when
+user wants to play it*/
+
+
+/*Showing progress*/
+
+/*The tag is used in conjunction with javascript to dynamically display a task's progress*/
+
+<progress min="" value="" max=""></progress>
+
+<canvas id="" width="" height=""></canvas> 
+/*Canvas can only be used incordination with javascript*/
+
+/*Scalable Vector Graphics*/
+The SVG concept is basically used when you want to scale up and down your web page
+without loss of quality
+You use adobe illustrator to create image and save it as SVG and then use image tag
+from HTML to call svg or directly copy paste the code of SVG under the body section
+of your html page. SVG is more effectively useful when used in coordination with
+Javascript
+
+/*Web Storage*/
+
+allows us to store data on user's computer in a fashion that is fast, secure, stores large amount of data. 
+
+allows to store data either locally or on a session basis by means of following two methods localStorage() or sessionStorage()
+
+fundamental knowledge of javascript is expected in order to use web storage API of html5 
+
+browser vendor prefixes:
+
+-ms- internet explorer
+-moz- firefox
+-webkit - Safari
+-chrome- chrome
+-o - Opera
+-khtml - konqueror

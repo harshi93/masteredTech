@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSLessons@MVA</title>
+<script type="text/javascript">
+	
+	//block scope example
+	if (true){
+		var x = 5;
+	}
+	alert(x);
+
+	myscope = "global";
+
+	(function(){
+		alert("inside the function scope is:"+ myscope);
+	})();
+
+	alert("inside the function scope is:" + myscope);
+
+	myscope = "global";
+	(function(){
+		var  myscope = "function";
+		alert("inside the function scope is:"+ myscope);
+	})();
+
+	alert("inside the function scope is:" + myscope);
+</script>
+<body>
+<h1>Function Vs Global Scope</h1>	
+</body>
+</html>
+
+hoisting is scenario where javascript after finding in a variable
+looks for start and end of the function and makes the variable available 
+to be used anywhere in that function
+
+block scope is irrelevant in javascript
+
+all variables defined in global scope belong to DOM window which is the 
+top most object inside DOM

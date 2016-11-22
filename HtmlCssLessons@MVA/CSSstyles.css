@@ -1,0 +1,224 @@
+/*CSS can be defined either externally or in-line or On-page*/
+
+/* media attribute is for the purpose of making your page compatible with either
+all screen sizes or specific set of screen sizes
+
+media = "all" means the webpage is for all screen sizes
+
+"use @import url(main.css) inside of the css file"*/
+
+tags 
+or id =  gives uniqueness to elements or class = helps 
+group multiple elements into single group
+have different use
+
+body{
+	font-family:Arial, Verdana, sans-serif;
+
+}
+
+.important{ // way of defining class
+	color: red;
+}
+
+#sin{ // way of defining id
+	color: blue;
+}
+
+span.important{ // will change color of only those elements that have span as tag
+	color: darkred;
+}
+
+h1,h2,h3, p.important{ // will cause mentioned object of important class to be in 
+	following manner
+	margin-left: 50px;
+}
+
+a =  anchor tag normally used with href tags
+
+a:link{ // link that are not visited will be of this color
+	text-decoration: none;
+	color:green;
+}
+
+a:hover{ // when take cursor over a link underline that text
+	text-decoration: underline;
+}
+
+a:visited{ // once we have visited a link the color of the hyperlink will change
+	color:darkgreen;
+}
+
+/*
+controlling inheritance are of following types: imherit, none,  normal,  auto
+
+cascading order of precedence (high to low preference is followed from
+left to right): user, inline, media, !important, specific, order, 
+inherited from parents, browser defaults
+
+*/
+
+p:first-letter{
+	font-size: 3em;
+}
+p:first-of-type{
+	margin-right: 200px;
+}
+
+li:first-child{
+	font-style: italic;
+}
+
+li:last-child{
+	font-weight: bold;
+}
+
+li:nth-of-type(3){ //(value inside) defines the line number
+	text-decoration: underline;
+}
+
+span[title]{ // decorates wherever there is attribute title
+	color: black;
+}
+
+span[title="first idea"]{ // decorates the sentence where attribute is title
+	with first idea
+	text-decoration: line-through;
+}
+
+span[title$="idea"]{ // decorates line where title ends with idea($=) it's symbol for 
+ends with
+	text-decoration: overline;
+}
+
+a[href^="email"]{
+	font-size: 2em;
+}
+
+article:before{
+	content: url();
+}
+header{
+	width:80%;
+	background-color: black;
+	color:white;
+	margin:;
+	padding: ;
+	border: 1px solid black;
+	border-radius:50px;
+}
+
+
+The values for border go as top right bottom left i.e. in clockwise fashion
+
+h1{
+ font-size: 2em;
+
+}
+
+h2{
+	font-size:1.6;
+}
+
+h3{
+	font-size:1.3;
+}
+
+hgroup{
+	width:70;
+	float:left;
+}
+
+img{
+	float:right;
+	margin: 0px;
+	box-shadow: 0px black;
+}
+
+hgroup h1{
+	padding-top: 0
+	line-height: 1em;
+}
+nav{
+	width:30;
+	float:right;
+}
+
+nav ul{
+	list-style: none;
+}
+section{
+
+}
+
+footer{
+
+}
+
+/* CSS3 Font and text properties */
+<style="font-family:Arial">
+<style="font-size: 1em/110%/14px/smaller/small/large/larger/x-large/xx-large">
+<style="font-weight:normal/lighter/bolder/bold/any value between 100-900">
+<style="font-style: normal/italic/oblique">
+<style="font-variant:normal">
+<style="letter-spacing:normal">
+<style="word-spacing:normal/5em">
+<style="line-height: normal/2em">
+<style="text-transform: Capitalize/UPPERCASE/lowercase">
+<style="text-align:left">
+<style="vertical-align:top/middle/bottom/super/sub/baseline/text-top/text-bottom">
+<style="text-indent: 25px">
+<style="white-space:normal/pre/nowrap">
+<style="text-decoration: underline/overline/linethrough">
+
+/*CSS3 Color and background properties*/
+
+<style="color:blue/(#0000FF)/rgb(0,0,255)">
+<style="background-color:#99999">
+<style="background-image:none">
+<style="background-repeat:repeat/repeat-y/no-repeat">
+<style="background-position:top/right/bottom/left">
+<style="background-attachment: scroll/fixed">
+
+/*CSS3 List and Table Properties*/
+
+list-style-type:none/disc/circle/upper-alpha/lower-alpha/lower-greek/square/zero/upper-roman
+list-style-image: none/url()
+list-style-position:inside/outside
+/*All taught is similar to what has been taught in chapter for tables*/
+
+/*Block-style elements are the ones used to produce box space to hold items, Also
+these elements are stacked vertically:
+article/aside/header/footer/body/head/div/dl/dd/dt/figure/figcaption/form/fieldset
+/hgroup/p/hr/ul/ol/li/table/h1-h6*/
+/*Inline elements are elements stacked horizontally: 
+a/code/em/i/u/img/label/legend/nav/small/span*/
+
+/*CSS3 Box Properties*/
+<hr style="clear:both">
+<border-style="solid/dotted/dashed/double/groove/ridge/inset/outset">
+overflow:auto/scroll/hidden/visible
+margin: top right bottom left
+padding: top right bottom left
+border-radius for rounded corners
+cursor: auto/crosshair/default/help/move/pointer/text/wait/n-resize/ne-resize/
+nw-resize/e-resize/w-resize/s-resize/se-resize/sw-resize/ur(pathtocursor)
+
+/*fontsquirrel.com*/
+/*Most Search Engine hurt page ranking if page takes too much time to load*/
+
+/*Download the font from the website, open their css file using notepad
+select word wrap to reduce display width of code, copy code that makes use of
+font from that font css file add it to your css file and add supporting files 
+to your stylesheet folder*/
+
+/*Learn how to incorporate them in website*/
+960.css
+blueprint.css
+bootstrap.css
+
+Stunning CSS3 A project based guide Zoe Gillenwater
+
+Learn Javascript then C# then ASP.NET
+
+http://www.LearnVisualStudio.Net

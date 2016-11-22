@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSLessons@MVA</title>
+<script type="text/javascript">
+
+var candidates = [];
+candidates[0] = "locke";
+candidates[1] = "reyes";
+candidates[3] = "ford";
+
+alert("Jacob chooses:" + candidates[1]);
+
+var candidates = ["locke", "reyes", "ford"];
+alert("Jacob chooses:"+ candidates[1]);
+
+var flightDate = new Date("September 22, 2016");
+var myValues = ["Air India", 191, flightDate];
+
+for(i in myValues){
+	document.write(myValues[i] + "<br />");
+}
+
+//Associative arrays
+var	caveList = [];
+caveList["locke"] = 4;
+caveList["reyes"] = 8;
+caveList["ford"] = 15;
+caveList["jarrah"] = 16;
+caveList["shepherd"] = 23;
+caveList["kwon"] = 42;
+
+alert("Sawyer's number:" + caveList["ford"]);
+
+
+</script>	
+<body>
+<h1>Javascript Arrays</h1>
+</body>
+</html>
