@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Montserrat');
+
+@media (max-width: 700px){
+  .nav{
+    font-size: 15px;
+  }
+    #icn{
+      width:50%;
+    }
+    #idn{
+      width: 50%;
+    }
+    iframe{
+      width: 700px;
+    }
+    #myCarousel{
+      width: 500px;
+      height: 500px;
+    }
+    .jumbotron{
+       width:500px;
+       height: 400px;
+       background-color: #3f0000;
+    }
+    #TELC{
+      width: 520px;
+      height: 546px;
+    }
+
+    #LL{
+     width:60%;
+     height: 400px;
+     float: left;
+   }
+
+  #LLF{
+    width:40%;
+    height:400px;
+    float: right;
+  }
+
+}
+/*#myCarousel{
+  width: 500px;
+  height: 600px;
+}
+
+.jumbotron{
+  width:500px;
+  height: 600px;
+  background-color: #3f0000;
+}
+.container-fluid{
+  background-color: whitesmoke;
+}
+.navbar{
+  background-color: whitesmoke;
+  height: 20px;
+  color: black;
+  font-size: 10px;
+  font-family: 'Frank Ruhl Libre', Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.dropdown-menu{
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+ul.nav a:visited{
+  color: black !important; 
+}
+
+ul.nav a:hover{
+  color: white !important;
+}
+
+
+.navbar-right{
+  background-color: whitesmoke;
+}
+body{
+  background-color:#3f0000;
+  color: slategrey;
+  font-size: 10px;
+  font-family: 'Montserrat',Verdana, Geneva, Tahoma, sans-serif;
+}
+iframe{
+  padding-top: 100px;
+  width:500px;
+  height: 920px;
+}
+p{
+  padding: 20px;
+}
+p:first-letter{
+  font-size: 25px;
+}
+a.carousel-control{
+  color: white;
+}
+
+.carousel-indicators li{
+  background-color: #3f0000;
+}
+
+#icn{
+  width:50%;
+  height: 500px;
+  float: left;
+}
+#idc{
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+
+#LL{
+  width:60%;
+  height: 100px;
+  float: left;
+}
+
+#LLF{
+  width:40%;
+  height:100px;
+  float: right;
+}
+video{
+  width: 100px;
+}
+#jam{
+  width: 500px;
+}
+.footer{
+  font-size: 10px;
+  background-color:#3f0000;
+  color: darkslategrey;
+}
+
+.dropdown:hover .dropdown-menu{
+display: block;
+}
+
+#TELC{
+  height: 500px;
+}
+
+#logo{
+  width:214px;
+  height:100px;
+}
+
+figcaption{
+  text-align: center;
+}
+*/
